@@ -24,7 +24,7 @@ public class UsuarioPostgresSqlDAO extends SqlConnection implements UsuarioDAO {
             statement.setString(2, usuario.getNombre());
             statement.setString(3, usuario.getApellido());
             statement.setString(4, usuario.getCorreo());
-            statement.setString(5, usuario.getPassowrd());
+            statement.setString(5, usuario.getPassword());
             statement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -39,7 +39,7 @@ public class UsuarioPostgresSqlDAO extends SqlConnection implements UsuarioDAO {
             statement.setString(1, usuario.getNombre());
             statement.setString(2, usuario.getApellido());
             statement.setString(3, usuario.getCorreo());
-            statement.setString(4, usuario.getPassowrd());
+            statement.setString(4, usuario.getPassword());
             statement.setString(5, usuario.getId().toString());
             statement.executeUpdate();
         } catch (SQLException e) {
@@ -102,5 +102,15 @@ public class UsuarioPostgresSqlDAO extends SqlConnection implements UsuarioDAO {
         }
 
         return usuarios;
+    }
+
+    @Override
+    public boolean exists(UUID id) {
+        return false;
+    }
+
+    @Override
+    public void create(UsuarioEntity usuario) {
+
     }
 }

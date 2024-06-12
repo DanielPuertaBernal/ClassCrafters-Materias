@@ -18,6 +18,10 @@ public final class UsuarioEntity {
         setCorreo(correo);
         setPassword(password);
     }
+
+    public UsuarioEntity(Object id) {
+    }
+
     protected static final UsuarioEntity build() {
         return new UsuarioEntity(null);
     }
@@ -68,4 +72,5 @@ public final class UsuarioEntity {
     public String getPassword() {
         return password;
     }
+
 }

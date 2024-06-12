@@ -5,6 +5,7 @@ import co.edu.uco.taskpeak.crosscutting.helpers.DateHelper;
 import co.edu.uco.taskpeak.crosscutting.helpers.TextHelper;
 import co.edu.uco.taskpeak.data.dao.TareaDAO;
 import co.edu.uco.taskpeak.data.dao.sql.SqlConnection;
+import co.edu.uco.taskpeak.dto.TareaDTO;
 import co.edu.uco.taskpeak.entity.CategoriaTareaEntity;
 import co.edu.uco.taskpeak.entity.EstadoTareaEntity;
 import co.edu.uco.taskpeak.entity.TareaEntity;
@@ -130,5 +131,10 @@ public class TareaPostgresSqlDAO extends SqlConnection implements TareaDAO {
             e.printStackTrace();
         }
         return tareas;
+    }
+
+    @Override
+    public List<TareaDTO> buscarPorUsuario(UUID usuarioId) {
+        return List.of();
     }
 }
