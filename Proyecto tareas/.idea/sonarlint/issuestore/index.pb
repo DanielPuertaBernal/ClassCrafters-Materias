@@ -11,3 +11,13 @@ dtaskpeak-tp-taspeak-backend-d6ad28603d14/src/main/java/co/edu/uco/taskpeak/enti
 |taskpeak-tp-taspeak-backend-d6ad28603d14/src/main/java/co/edu/uco/taskpeak/data/dao/sql/postgressql/TareaPostgresSqlDAO.java,3\7\3705a77b42483d11ada1c44ef222f29f30ac9c5d
 ®
 ~taskpeak-tp-taspeak-backend-d6ad28603d14/src/main/java/co/edu/uco/taskpeak/data/dao/sql/postgressql/UsuarioPostgresSqlDAO.java,8\f\8f25ad21a156c738b7c9238261bf517e90c84d30
+§
+wtaskpeak-tp-taspeak-backend-d6ad28603d14/src/main/java/co/edu/uco/taskpeak/api/controller/HistorialTareaController.java,9\9\998cecd08d5adb2f4c422a995c76ffc500a9c5e8
+¥
+utaskpeak-tp-taspeak-backend-d6ad28603d14/src/main/java/co/edu/uco/taskpeak/api/controller/RecordatorioController.java,5\7\571c0859dae62a01fd9752e4e0552f2d04b1a5c7
+ž
+ntaskpeak-tp-taspeak-backend-d6ad28603d14/src/main/java/co/edu/uco/taskpeak/api/controller/TareaController.java,5\0\50214294d4709786a6d5d4d8b133bc03712aff76
+¥
+utaskpeak-tp-taspeak-backend-d6ad28603d14/src/main/java/co/edu/uco/taskpeak/api/controller/TareaUsuarioController.java,2\8\282e15c0db74837159d66469670736babee91d22
+ 
+ptaskpeak-tp-taspeak-backend-d6ad28603d14/src/main/java/co/edu/uco/taskpeak/api/controller/UsuarioController.java,9\1\914f66af0fe6ef341f035b0777dd59798cd97818
